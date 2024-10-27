@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
+    color: white;
+    font-family: ms ui gothic;
+}
+
+html {
+    background-color: #383838;
+}
+
+h1 {
+    font-family: minecraft;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 0 0;
+}
+
+h3 {
+    font-family: minecraftia;
+}
+
+@font-face {
+    font-family: minecraftia;
+    src: url(https://dl.dropbox.com/s/qrro6u0lx00x66j/Minecraftia-Regular.ttf?);
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(MinecraftTen-VGORe.ttf);
+}
+
+header {
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    text-transform: uppercase;
+    height: 200px;
+    color: white;
+    padding: 100px;
+    display: flex;
+}
+
+header img {
+    margin-top: 50px;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.nav img {
+    width: 15px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.nav ul {
+    list-style: none;
+    margin-top: 7px;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-family: minecraftia;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    img {
+        transform: scale(1.3);
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    height: 520px;
+    padding: 10px;
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.two {
+    height: 540px;
+}
+
+.one h1 {
+    margin-bottom: 17px;
+    font-size: 2.5em;
+}
+
+.one p {
+    margin-bottom: 17px;
+}
+
+.one::-webkit-scrollbar {
+    width: 10px;
+}
+
+.one::-webkit-scrollbar-track {
+    background: #e7b6c300;
+}
+
+.one::-webkit-scrollbar-thumb {
+    background-color: #e694a800;
+    border-radius: 10px;
+    border: 3px solid #ffffff00;
+}
+
+video {
+    width: auto;
+    height: 350px;
+}
+
+@media screen and (max-width: 321px) {
+    header {
+        width: 50%;
+    }
+
+    header img {
+        max-width: 160%;
+        margin-top: -110px;
+        margin-left: -55px;
+    }
+
+    .nav {
+        width: 96%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 322px) and (max-width: 376px) {
+    header {
+        width: 50%;
+    }
+
+    header img {
+        max-width: 160%;
+        margin-top: -110px;
+        margin-left: -55px;
+    }
+
+    .nav {
+        width: 96%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 428px) {
+    header {
+        width: 51%;
+    }
+
+    header img {
+        max-width: 160%;
+        margin-top: -110px;
+        margin-left: -55px;
+    }
+
+    .nav {
+        width: 96%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 429px) and (max-width: 769px) {
+    header {
+        width: 100%;
+        height: 150px;
+    }
+
+    header img {
+        max-width: 100%;
+        margin-top: 100px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    header img {
+        max-width: 100%;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .one {
+        width: 60%;
+    }
+
+    .two {
+        width: 40%;
+    }
+
+    video {
+        width: 375px;
+        height: auto;
+    }
+}
