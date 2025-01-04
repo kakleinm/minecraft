@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
+  color: rgb(255, 255, 255);
+  font-family: ms ui gothic;
+}
+
+html {
+  background-color: #383838;
+}
+
+h1 {
+  font-family: minecraftia;
+}
+
+@font-face {
+  font-family: minecraftia;
+  src: url(https://dl.dropbox.com/s/qrro6u0lx00x66j/Minecraftia-Regular.ttf?);
+}
+
+@font-face {
+  font-family: minecraft;
+  src: url(MinecraftTen-VGORe.ttf);
+}
+
+h2 {
+  font-family: minecraft;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, 0 0;
+  margin-bottom: 5px;
+}
+
+.one {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/coal.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.two {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/iron.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.three {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/copper.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.four {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/gold.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.five {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/redstone.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.six {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/lapis.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.seven {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/emerald.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.eight {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/diamond.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.nine {
+  background-image: url(https://file.garden/Z3aiuy1OK095plFx/nether.webp);
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+section article {
+  background-color: rgba(242, 240, 240, 0.981);
+  padding: 10px;
+  width: 476px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: black;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, 0 0;
+}
+
+figure img {
+  width: 400px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+header figure {
+  margin-left: auto;
+}
+
+header div {
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+}
+
+header b {
+  color: rgb(137, 222, 137);
+}
+
+.coal {
+  color: #373737;
+  font-weight: bold;
+}
+
+.iron {
+  color: #a19d94;
+  font-weight: bold;
+}
+
+.copper {
+  color: #b87333;
+  font-weight: bold;
+}
+
+.gold {
+  color: #ffdf00;
+  font-weight: bold;
+}
+
+.redstone {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.lapis {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+.emerald {
+  color: #50c878;
+  font-weight: bold;
+}
+
+.diamond {
+  color: #1cd4d4;
+  font-weight: bold;
+}
+
+.netherite {
+  color: #362b26;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 321px) {
+  header,
+  section {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  figure img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  section article {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  header div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 376px) {
+  header,
+  section {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  figure img {
+    max-width: 100%;
+    max-height: 330px;
+  }
+
+  section article {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  header div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  header,
+  section {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  figure img {
+    max-width: 100%;
+    max-height: 360px;
+  }
+
+  section article {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  header div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 885px) {
+  header,
+  section {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  figure {
+    margin: auto;
+  }
+
+  figure img {
+    max-width: 100%;
+    max-height: 400px;
+  }
+
+  section article {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  header div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1279px) {
+  .one {
+    font-size: 3rem;
+    padding-bottom: 132px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .one {
+    font-size: 3rem;
+    padding-bottom: 116px;
+  }
+}
